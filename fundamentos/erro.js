@@ -20,5 +20,5 @@ function imprimirNomeGritado(obj) {
     }
 }
 
-const obj = { nome: "Roberto" } // com atributo "nome" irá gerar erro pois o que foi declarado como atributo é "name"
+const obj = { nome: 'Roberto' }
 imprimirNomeGritado(obj)

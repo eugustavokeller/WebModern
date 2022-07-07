@@ -1,12 +1,11 @@
-function compras(trabalho1, trabalho2){
+function compras(trabalho1, trabalho2) {
     const comprarSorvete = trabalho1 || trabalho2
     const comprarTv50 = trabalho1 && trabalho2
-    // const comprarTv32 = !!(trabalho1 ^ trabalho2) // bitwiser xor
+    // const comprarTv32 = !!(trabalho1 ^ trabalho2) // bitwise xor
     const comprarTv32 = trabalho1 != trabalho2
-    const manterSaudavel = !comprarSorvete // operador unario
+    const manterSaudavel = !comprarSorvete // operador unário
 
-    return { comprarSorvete, comprarTv50, comprarTv32, manterSaudavel}
-
+    return { comprarSorvete, comprarTv50, comprarTv32, manterSaudavel }
 }
 
 console.log(compras(true, true))
