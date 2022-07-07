@@ -18,3 +18,5 @@ abc = 3 // nunca faca isso
 console.log(global.abc)
 
 // module.exports = { e: 456, f: false, g: 'teste'}
+
+// teste
