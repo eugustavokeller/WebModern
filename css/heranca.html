@@ -9,34 +9,44 @@
             text-align: center;
             font-family: monospace;
             font-size: 40px;
-            border: solid 3px red;
+            border: solid 15px gray;
             padding: 50px;
             margin: 50px;
         }
 
-        body div:hover { 
-
-            color: red;
-            background-color: darkmagenta;
+        .heranca {
+            background-image: linear-gradient(to right, purple, blue);
+            border: solid 10px black;
+            padding: 2px;
+            margin: 2px 0px;
         }
 
+        .heranca:hover {
+            color: white;
+            background-image: linear-gradient(to right, red, yellow);
 
-        body h1:hover {
-            text-align: center;
-            display: block;
-            color: red;
-            background-color: purple;
+        }
 
+        .herdando {
+            color: white;
+            padding: 20px;
+            border: solid 10px black;
+            background-image: linear-gradient(to right, red, yellow);
+        }
+
+        .herdando:hover {
+            color: black;
+            background-image: linear-gradient(to right, purple, blue);
         }
     </style>
 </head>
 
 <body>
-    <h1>
+    <h1 class="heranca">
         Herança
     </h1>
 
-    <div>
+    <div class="herdando">
         Estou herdando
     </div>
 </body>
